@@ -6,8 +6,7 @@ var app = express();
 app.get('/', async function (req, res) {
 	let os = require('os');
 	let hostname = os.hostname();
-	console.log('111')
-	await allocToMax();
+	//await allocToMax();
   res.send(`Hello world, host-name, fix two, add node, host name = ${hostname} \n`);
 });
 
