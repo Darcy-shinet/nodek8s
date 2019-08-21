@@ -4,7 +4,7 @@ var PORT = 8888;
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello world, host-name, fix two\n');
+  res.send('Hello world, host-name, fix two, add node\n');
 });
 
 app.listen(PORT);
