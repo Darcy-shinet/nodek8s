@@ -5,7 +5,7 @@ var PORT = 8888;
 var app = express();
 app.get('/', async function (req, res) {
 	let os = require('os');
-	#let hostname = os.hostname();
+	let hostname = os.hostname();
 	//await allocToMax();
   res.send(`Hello world,version-1, host name = ${hostname} \n`);
 });
