@@ -7,7 +7,7 @@ app.get('/', async function (req, res) {
 	let os = require('os');
 	let hostname = os.hostname();
 	//await allocToMax();
-  res.send(`Hello world,version-2, host name = ${hostname} \n`);
+  res.send(`Hello world,version-3, host name = ${hostname} \n`);
 });
 
 app.listen(PORT);
